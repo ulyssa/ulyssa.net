@@ -1,6 +1,12 @@
 # The URL the site will be built for
 base_url = "https://ulyssa.net"
 
+title = "Ulyssa"
+description = "Ulyssa's Personal Site"
+
+# The default language; used in feeds.
+default_language = "en"
+
 theme = "DeepThought"
 
 # Whether to automatically compile all Sass files in the sass directory
