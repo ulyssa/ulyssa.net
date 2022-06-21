@@ -53,11 +53,23 @@ the conversion. The [Public Issues Index] for Triton (see [bugview] for the
 source) uses it to help proxy issues labeled `public`, so that community
 users can see the tickets and comments left by its engineers.
 
+## manage-ldap
+
+[github][manage-ldap]
+
+This is a set of OpenLDAP user management scripts that emulate the behaviour
+and flags of the Debian user management tools (`groupadd`, `useradd`, `chsh`,
+etc.). I wrote for an organization I used to do systems administration for when
+we migrated to using OpenLDAP. I haven't touched the project in a long time,
+but I still occasionally get e-mails from people who find them useful. Maybe
+you will too!
+
 [iamb]: https://github.com/ulyssa/iamb
 [modalkit]: https://github.com/ulyssa/modalkit
 [termsketch]: https://github.com/ulyssa/termsketch
 [node-jiramark]: https://github.com/TritonDataCenter/node-jiramark
 [node-iamb]: https://github.com/melloc/node-iamb
+[manage-ldap]: https://github.com/melloc/manage-ldap
 
 [crossterm]: https://crates.io/crates/crossterm
 [tui-rs]: https://crates.io/crates/tui
