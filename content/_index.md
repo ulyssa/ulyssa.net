@@ -21,10 +21,12 @@ for more.
 `modalkit` is a library that I wrote based on [crossterm] and [tui-rs] to help
 build modal editing TUI applications. Some of the things it supports are:
 
-- Modal editing using vim keybindings and modes, or your own custom mappings
+- Modal editing using Vim or Emacs keybindings and modes, or your own custom mappings
+- Recording macors and repeating edits
 - Registers and marks
 - Digraphs
 - Window management with horizontal and vertical splits, and tabs
+- A readline-style editor
 
 ## iamb
 
