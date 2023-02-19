@@ -12,29 +12,46 @@ I previously worked at [Joyent], working on features related to networking and
 databases within [Triton], [Manta], and [SmartOS]. See [my resume](/resume.pdf)
 for more.
 
+I am currently looking for software engineering jobs in Rust or developing
+systems software.  If you're hiring, please reach out to me at
+`hello[at]ulyssa[dot]email`! I especially love environments where I can
+continually learn and grow as an engineer, and enjoy all kinds of projects,
+from building and debugging distributed systems, to web development, to working
+on developer tools.
+
 # Projects
 
 ## modalkit
 
-[github][modalkit] / [crates.io](https://crates.io/crates/modalkit) / [docs.rs](https://docs.rs/modalkit/latest/modalkit/)
+[github][modalkit] / [crates.io][crate:modalkit] / [docs.rs][docs:modalkit] / [matrix][matrix:modalkit]
 
 `modalkit` is a library that I wrote based on [crossterm] and [tui-rs] to help
 build modal editing TUI applications. Some of the things it supports are:
 
 - Modal editing using Vim or Emacs keybindings and modes, or your own custom mappings
-- Recording macors and repeating edits
-- Registers and marks
-- Digraphs
+- Operations like yank, delete, paste, join, and changing case and numbers
+- Word, line, buffer and screen motions
+- Selecting text objects (e.g. quotes and brackets)
+- Visual selections, including linewise and blockwise selections
+- Cursor marks, and navigating through the jumplist and changelist
+- Macro recording and execution, and repeating the previous edit
+- Typing literals and digraphs, and copying adjacent lines in Insert mode
 - Window management with horizontal and vertical splits, and tabs
 - A readline-style editor
 
 ## iamb
 
-[github][iamb] / [crates.io](https://crates.io/crates/iamb)
+[github][iamb] / [crates.io][crate:iamb] / [matrix][matrix:iamb]
 
-`iamb` is a TUI [Matrix] client that uses Vim keybindings. It's still very much a work in progress.
+`iamb` is a TUI [Matrix] client that uses Vim keybindings. It's still a work in progress, but it includes support for:
 
-I originally wrote it [in node][node-iamb], with support for Mattermost, but later decided to rewrite it in Rust and only target Matrix for now.
+- Multiple Matrix accounts
+- Emoji reactions to messages
+- Message editing, replies, and redactions
+- Sending and rendering Markdown-formatted messages
+- Uploading and downloading attachments
+- Read markers
+- Matrix Spaces
 
 ## termsketch
 
@@ -70,8 +87,16 @@ from people who find them useful. Maybe you will too!
 [modalkit]: https://github.com/ulyssa/modalkit
 [termsketch]: https://github.com/ulyssa/termsketch
 [node-jiramark]: https://github.com/TritonDataCenter/node-jiramark
-[node-iamb]: https://github.com/melloc/node-iamb
 [manage-ldap]: https://github.com/melloc/manage-ldap
+
+[crate:iamb]: https://crates.io/crates/iamb
+[crate:modalkit]: https://crates.io/crates/modalkit
+
+[docs:iamb]: https://docs.rs/iamb/latest/iamb/
+[docs:modalkit]: https://docs.rs/modalkit/latest/modalkit/
+
+[matrix:iamb]: https://matrix.to/#/#iamb:0x.badd.cafe
+[matrix:modalkit]: https://matrix.to/#/#modalkit:0x.badd.cafe
 
 [crossterm]: https://crates.io/crates/crossterm
 [tui-rs]: https://crates.io/crates/tui
