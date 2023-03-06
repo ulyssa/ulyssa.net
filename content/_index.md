@@ -35,7 +35,7 @@ build modal editing TUI applications. Some of the things it supports are:
 - Visual selections, including linewise and blockwise selections
 - Cursor marks, and navigating through the jumplist and changelist
 - Macro recording and execution, and repeating the previous edit
-- Typing literals and digraphs, and copying adjacent lines in Insert mode
+- Inserting completions, literals and digraphs, and copying adjacent lines in Insert mode
 - Window management with horizontal and vertical splits, and tabs
 - A readline-style editor
 
