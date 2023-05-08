@@ -8,16 +8,7 @@ description = "Software Engineer living in the Bay Area"
 Hi, I'm Ulyssa! I like making and contributing to open source software. Most
 of what I make is in Rust, C, and JavaScript.
 
-I previously worked at [Joyent], working on features related to networking and
-databases within [Triton], [Manta], and [SmartOS]. See [my resume](/resume.pdf)
-for more.
-
-I am currently looking for software engineering jobs in Rust or developing
-systems software.  If you're hiring, please reach out to me at
-`hello[at]ulyssa[dot]email`! I especially love environments where I can
-continually learn and grow as an engineer, and enjoy all kinds of projects,
-from building and debugging distributed systems, to web development, to working
-on developer tools.
+I'm currently working at [Fastly], and worked at [Joyent] before that.
 
 # Projects
 
@@ -107,7 +98,5 @@ from people who find them useful. Maybe you will too!
 [DSSIM]: https://en.wikipedia.org/wiki/Structural_similarity
 [Matrix]: https://matrix.org/
 
+[Fastly]: https://www.fastly.com/
 [Joyent]: https://www.joyent.com/
-[Triton]: https://github.com/TritonDataCenter/triton
-[Manta]: https://github.com/TritonDataCenter/manta
-[SmartOS]: https://github.com/TritonDataCenter/smartos-live
