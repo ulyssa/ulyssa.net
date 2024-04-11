@@ -32,17 +32,18 @@ build modal editing TUI applications. Some of the things it supports are:
 
 ## iamb
 
-[github][iamb] / [crates.io][crate:iamb] / [matrix][matrix:iamb]
+[iamb.chat] / [github][iamb] / [crates.io][crate:iamb] / [matrix][matrix:iamb]
 
-`iamb` is a TUI [Matrix] client that uses Vim keybindings. It's still a work in progress, but it includes support for:
+`iamb` is a TUI [Matrix] client that uses Vim keybindings. It includes support for:
 
-- Multiple Matrix accounts
-- Emoji reactions to messages
-- Message editing, replies, and redactions
-- Sending and rendering Markdown-formatted messages
-- Uploading and downloading attachments
-- Read markers
-- Matrix Spaces
+- Threads, spaces, E2EE, and read receipts
+- Image previews in terminals that support it (sixels, Kitty, and iTerm2), or using pixelated blocks for those that don't
+- Notifications via terminal bell or desktop environment
+- Creating, joining, and leaving rooms
+- Sending and accepting room invitations
+- Editing, redacting, and reacting to messages
+- Custom keybindings
+- Multiple profiles
 
 ## termsketch
 
@@ -75,6 +76,7 @@ touched the project in a long time, but I still occasionally get e-mails
 from people who find them useful. Maybe you will too!
 
 [iamb]: https://github.com/ulyssa/iamb
+[iamb.chat]: https://iamb.chat
 [modalkit]: https://github.com/ulyssa/modalkit
 [termsketch]: https://github.com/ulyssa/termsketch
 [node-jiramark]: https://github.com/TritonDataCenter/node-jiramark
